@@ -1,0 +1,7 @@
+{
+  "name": "recluting",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
