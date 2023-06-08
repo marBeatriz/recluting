@@ -26,6 +26,10 @@ const routes: Routes = [
     path: 'postulaciones2',
     loadChildren: () => import('./postulaciones2/postulaciones2.module').then( m => m.Postulaciones2PageModule)
   },
+  {
+    path: 'inicio',
+    loadChildren: () => import('./inicio/inicio.module').then( m => m.InicioPageModule)
+  },
 
 
 ];
