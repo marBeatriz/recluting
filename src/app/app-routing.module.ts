@@ -18,7 +18,15 @@ const routes: Routes = [
   {
     path: 'foto',
     loadChildren: () => import('./foto/foto.module').then( m => m.FotoPageModule)
+  },  {
+    path: 'postulaciones',
+    loadChildren: () => import('./postulaciones/postulaciones.module').then( m => m.PostulacionesPageModule)
   },
+  {
+    path: 'postulaciones2',
+    loadChildren: () => import('./postulaciones2/postulaciones2.module').then( m => m.Postulaciones2PageModule)
+  },
+
 
 ];
 
